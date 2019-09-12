@@ -5,9 +5,10 @@ html{
 	background-color: #9EA8B0;
 	margin: 1% 3%;
 	}
+/* niepoprawne wcięcie */
 
 
-
+/* dajemy spację przed znakiem {  */
 .menu{
 	padding: 10px;
 	text-decoration: none;
@@ -15,6 +16,7 @@ html{
 }
 
 .calendar{
+/* zerknij tutaj: https://css-tricks.com/poll-results-how-do-you-order-your-css-properties/*/
 	margin-top: 50px;
 	width: 30%;
 	padding: 5px;
@@ -22,6 +24,7 @@ html{
 	border-radius: 10px;	
 	text-align: center;
 	float:right;
+/* Nie używamy już floatów do pozycjonowania elementów - zerknij na CSS3 Flex i Grid */
 }
 
 .dunno {
